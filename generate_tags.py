@@ -5,7 +5,7 @@ from math import ceil
 # Paths and settings
 FONT_PATH = "fonts/PressStart2P-Regular.ttf"
 OUTPUT_DIR = "generated_tags"
-PDF_OUTPUT = "z_GENERATED_TAGS.pdf"
+PDF_OUTPUT = "outputPDF.pdf"
 NAME_FILE = "names.txt"
 
 # Font and text
