@@ -1,0 +1,12 @@
+# Ignore generated files
+GENERATED_TAGS.pdf
+y_tags.pdf
+z_tags.pdf
+z_GENERATED_TAGS.pdf
+
+# Ignore tag output folder
+generated_tags/
+
+# Ignore backup/testing scripts
+multi_page_backup.py
+sinlge_page_backup.py
