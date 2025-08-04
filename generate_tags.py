@@ -23,6 +23,7 @@ CELL_MARGIN = 40
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # Load base images and their text positions
+# update the y-coordinate in the base images to move the text either up or down.
 base_templates = [
     {"img": Image.open("base_images/base_image1.png"), "pos": (960, 475)},
     {"img": Image.open("base_images/base_image2.png"), "pos": (960, 500)},
